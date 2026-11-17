@@ -1,0 +1,45 @@
+{
+  "quartos": [
+    {
+      "id": 1,
+      "numero": 1,
+      "tipo": "solitario",
+      "valor_da_diaria": 200.0,
+      "estado": "LIVRE"
+    },
+    {
+      "id": 2,
+      "numero": 101,
+      "tipo": "solitario",
+      "valor_da_diaria": 200.0,
+      "estado": "LIVRE"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Porto",
+      "cpf": "06053234370"
+    },
+    {
+      "id": 2,
+      "nome": "Cesar",
+      "cpf": "93473853987"
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "id_quarto": 2,
+      "data_entrada": "2026-12-25",
+      "data_saida_prevista": "2026-12-27",
+      "status": "FINALIZADA"
+    }
+  ],
+  "proximos": {
+    "quarto": 3,
+    "cliente": 3,
+    "reserva": 2
+  }
+}
